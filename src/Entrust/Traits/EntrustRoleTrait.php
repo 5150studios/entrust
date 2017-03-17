@@ -48,6 +48,7 @@ trait EntrustRoleTrait
         return true;
     }
 
+    /*
     public function restore()
     {   //soft delete undo's
         if (!parent::restore()) {
@@ -58,6 +59,7 @@ trait EntrustRoleTrait
         }
         return true;
     }
+    */
 
     /**
      * Many-to-Many relations with the user model.
