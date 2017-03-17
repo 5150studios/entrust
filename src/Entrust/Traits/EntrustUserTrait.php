@@ -41,6 +41,8 @@ trait EntrustUserTrait
             Cache::tags(Config::get('entrust.role_user_table'))->flush();
         }
     }
+    
+    /*
     public function restore()
     {   //soft delete undo's
         parent::restore();
@@ -48,6 +50,7 @@ trait EntrustUserTrait
             Cache::tags(Config::get('entrust.role_user_table'))->flush();
         }
     }
+    */
 
     /**
      * Many-to-Many relations with Role.
